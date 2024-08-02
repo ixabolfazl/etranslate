@@ -2,7 +2,7 @@
 
 [![python](https://img.shields.io/static/v1?label=python+&message=3.7%2B&color=blue)](https://img.shields.io/static/v1?label=python+&message=3.7%2B&color=blue) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PyPI version](https://badge.fury.io/py/etranslate.svg)](https://badge.fury.io/py/etranslate)
 
-**Etranslate** is a **free** and **unlimited** python library for transiting your texts 
+**Etranslate** is a **free** and **unlimited** python library for translating your texts 
 
 ## Install it
 
