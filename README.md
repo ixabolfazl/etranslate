@@ -29,17 +29,18 @@ It's unclear whether your ip will be blocked if you relentlessly use the service
 
 ```python
 from etranslate import translate
+from etranslate import detect_laguage
 
 # Translate to English by default
-translate("Hallo Welt!")  # 'Hello world!'
+print(translate("Hallo Welt!"))  # 'Hello world!'
 
-translate("Hello world!", to="fa")  # '!سلام دنیا'
-translate("Hello world!", to="de")  # 'Hallo Welt!'
-translate("Hello world!", src="en", to="fa")  # '!سلام دنیا'
+print(translate("Hello world!", to="fa"))            # '!سلام دنیا'
+print(translate("Hello world!", to="de") )           # 'Hallo Welt!'
+print(translate("Hello world!", src="en", to="fa"))  # '!سلام دنیا'
 
 # Detect the language of texts
-detect_laguage("Hello world!")  # 'en'
-detect_laguage("سلام دنیا")      # 'fa'
+print(detect_laguage("Hello world!"))  # 'en'
+print(detect_laguage("سلام دنیا"))         # 'fa'
 ```
 
 ## Requirements
