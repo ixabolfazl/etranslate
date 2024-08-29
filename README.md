@@ -36,6 +36,10 @@ translate("Hallo Welt!")  # 'Hello world!'
 translate("Hello world!", to="fa")  # '!سلام دنیا'
 translate("Hello world!", to="de")  # 'Hallo Welt!'
 translate("Hello world!", src="en", to="fa")  # '!سلام دنیا'
+
+# Detect the language of texts
+detect_laguage("Hello world!")  # 'en'
+detect_laguage("سلام دنیا")      # 'fa'
 ```
 
 ## Requirements
