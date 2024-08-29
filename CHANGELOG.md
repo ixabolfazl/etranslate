@@ -11,4 +11,9 @@
 0.0.3 (23/8/2021)
 -------------------
 - fix README.md
+
+0.1.0 (29/8/2024)
+-------------------
+- refactor base-code
+- add detect_language method
 ```
