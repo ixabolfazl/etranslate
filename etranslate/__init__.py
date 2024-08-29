@@ -1,4 +1,5 @@
 from .translate import translate
+from .translate import detect_laguage
 
 
 __author__      = 'Abolfazl Khalili'
